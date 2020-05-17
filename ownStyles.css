@@ -33,3 +33,7 @@ b {
     font-size: 2em;
     color: #5781e4;
 }
+
+.text-muted {
+    font-size: 0.75em;
+}
