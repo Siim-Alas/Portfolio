@@ -21,3 +21,7 @@ document.addEventListener('scroll', () => {
     }
 });
 
+$(document).ready(() => {
+    $('#copyrightP').html(`&copy; ${new Date().getFullYear()} - Siim Alas`);
+});
+
