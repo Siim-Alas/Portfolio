@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="ownStyles.css" />
+    <title>Siim Alas</title>
+</head>
+<body>
+    <!-- Background image courtesy of Shahadat Rahman at Unsplash -->
+    <div class="container-fluid" id="containerDiv">
+        <div class="row min-vh-100">
+            <!-- Sidebar -->
+            <div class="col-xs-12 col-md-4 col-lg-3 collapse show text-light bg-dark justify-content-center sticky-top" style="height:100vh" id="sidebar">
+                <div class="d-flex h-100 align-items-center justify-content-center">
+                    <div class="flex-column justify-content-center">
+                        <div class="row pt-5">
+                            <h1>Siim Alas</h1>
+                        </div>
+                        <div class="row pb-5">
+                            <p>Student</p>
+                        </div>
+                        <div id="contactInfo">
+                            <div class="row">
+                                <i class="material-icons">email</i>
+                                <p>&emsp;<small>siim.alas@outlook.com</small></p>
+                            </div>
+                            <div class="row">
+                                <i class="material-icons">call</i>
+                                <p>&emsp;<small>+372 5348 7548</small></p>
+                            </div>
+                            <div class="row pb-5">
+                                <a class="text-light" href="https://github.com/Siim-Alas/">
+                                    <i class="fa fa-github fa-2x"></i>&emsp;Siim-Alas <i class="fa fa-external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main section -->
+            <div class="col p-0" id="mainDiv">
+                <!-- Greeting -->
+                <div class="d-flex flex-grow-1 align-items-center pt-5 justify-content-center text-white" id="greetingDiv">
+                    <div class="flex-column">
+                        <div class="row justify-content-center">
+                            <h1 class="display-1">Let's Start!</h1>
+                        </div>
+                        <div class="row justify-content-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Devicon-html5-plain-wordmark.svg" width="150" />
+                            &emsp;
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="100" />
+                            &emsp;&emsp;
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="100" />
+                            &emsp;&emsp;
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg" width="120" />
+                        </div>
+                    </div>
+                </div>
+                <!-- Text section -->
+                <div class="d-flex flex-grow-1 text-light" id="textSection">
+                    <div class="flex-column justify-content-center p-5">
+                        <div class="row">
+                            <code class="heading"><small>class</small> <b>Siim</b> : <b>Alas</b> {</code>
+                        </div>
+                        <div class="row">
+                            <code class="heading"><small>public string</small> <b>AboutMe</b> = @"</code>
+                        </div>
+                        <div class="row">
+                            <p>
+                                Enesetutvustuse tekst
+                            </p>
+                            <code class="heading">";</code>
+                        </div>
+                        <div class="row">
+                            <code class="heading"><small>public string</small><b>[]</b> <b>FavouriteProjects</b> = {</code>
+                        </div>
+                        <div class="row">
+                            <code class="heading">@"</code>
+                            <p>
+                                <a href="https://keelepurist.azurewebsites.net/" target="_blank">Keelepurist <i class="fa fa-external-link"></i></a>
+                                is an educational website currently in use by our school. It is an ASP.NET Core 3.1 Razor Pages application
+                                with CRUD functionality, hosted on Azure App Service, utilizing AAD B2B Authentication and Blob Storage.
+                                On the front-end, it serves mainly Bootstrap 4 with some taylor-made JavaScript. For security reasons, it's
+                                source code is hosted in a private GitHub repository.
+                            </p>
+                            <code class="heading">",</code>
+                        </div>
+                        <div class="row">
+                            <code class="heading">@"</code>
+                            <p>
+                                <a href="#" target="_blank">LilyHopper <i class="fa fa-external-link"></i></a> is ...
+                            </p>
+                            <code class="heading">"};</code>
+                        </div>
+                        <div class="row">
+                            <code class="heading">}</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- BS4 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Own JS -->
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

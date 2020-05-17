@@ -1,0 +1,35 @@
+﻿a {
+    font-size: inherit;
+    color: #c2c1ff;
+    text-decoration: inherit;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+b {
+    color: aliceblue;
+}
+
+#containerDiv {
+    background-image: url('code_image-min.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#greetingDiv {
+    height: 400px;
+}
+
+#textSection {
+    background-color: #232323;
+    border-top: solid;
+    border-color: #5781e4;
+}
+
+.heading {
+    font-size: 2em;
+    color: #5781e4;
+}
