@@ -12,6 +12,21 @@ b {
     color: aliceblue;
 }
 
+.heading {
+    font-size: 2em;
+    color: #5781e4;
+}
+
+.text-muted {
+    font-size: 0.75em;
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        font-size: 0.6cm;
+    }
+}
+
 #containerDiv {
     background-image: url('code_image-min.jpg');
     background-repeat: no-repeat;
@@ -27,13 +42,4 @@ b {
     background-color: #232323;
     border-top: solid;
     border-color: #5781e4;
-}
-
-.heading {
-    font-size: 2em;
-    color: #5781e4;
-}
-
-.text-muted {
-    font-size: 0.75em;
 }
