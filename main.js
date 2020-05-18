@@ -2,7 +2,7 @@
 let infoCollapsed = false;
 
 document.addEventListener('scroll', () => {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 992) {
         if (infoCollapsed) {
             if (window.pageYOffset === 0) {
                 $('.collapse').collapse('show');
