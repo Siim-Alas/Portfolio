@@ -43,6 +43,10 @@ b {
     .pl-5 {
         padding-left: 5vmin !important;
     }
+
+    #containerDiv {
+        overflow-x: hidden;
+    }
 }
 
 #containerDiv {
@@ -50,8 +54,6 @@ b {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
-    overflow: hidden;
 }
 
 #greetingDiv {
@@ -62,4 +64,5 @@ b {
     background-color: #232323;
     border-top: solid;
     border-color: #5781e4;
+    overflow: hidden;
 }
