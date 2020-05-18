@@ -4,6 +4,10 @@
     text-decoration: inherit;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 p {
     font-size: 1.25em;
 }
@@ -21,9 +25,15 @@ b {
     font-size: 0.75em;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     body {
-        font-size: 0.6cm;
+        font-size: 5vmin;
+    }
+    .material-icons {
+        font-size: 1em;
+    }
+    .display-1 {
+        font-size: 3em;
     }
 }
 
