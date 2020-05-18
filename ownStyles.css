@@ -48,8 +48,8 @@ b {
         overflow-x: hidden;
     }
 
-    #textSection p {
-        margin-right: 15vmin;
+    #textSection p, code {
+        margin-right: 10vmin;
     }
 }
 
