@@ -35,6 +35,14 @@ b {
     .display-1 {
         font-size: 3em;
     }
+
+    .p-5 {
+        padding: 5vmin !important;
+    }
+
+    .pl-5 {
+        padding-left: 5vmin !important;
+    }
 }
 
 #containerDiv {
@@ -42,6 +50,8 @@ b {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+    overflow: hidden;
 }
 
 #greetingDiv {
