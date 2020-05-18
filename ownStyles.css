@@ -47,6 +47,10 @@ b {
     #containerDiv {
         overflow-x: hidden;
     }
+
+    #textSection > div {
+        margin-right: 30vmin;
+    }
 }
 
 #containerDiv {
